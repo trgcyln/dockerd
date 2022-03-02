@@ -1,0 +1,87 @@
+.Tos_Radio_Box{width:100%;display:-webkit-flex;display:-webkit-box;display:-moz-flex;display:flex;}
+.Tos_Radio_Box label{-webkit-flex:1;-webkit-box-flex:1;-moz-box-flex:1;flex:1;}
+.Tos_Radio_Box .TosRadioMode{display:inline-block;margin:0;}
+.TosRadioMode{width:30px;height:30px;margin:0 auto;}
+.TosRadioMode .TosRadio{display:block;width:30px;height:30px;background:url(/images/tos_icons/tos_radiobox_icon.png) no-repeat;background-position:-3px 0;outline:none;}
+.TosRadioMode .TosRadio input{display:none;}
+.TosRadioMode .TosRadio:hover{background-position:-3px -30px;}
+.TosRadioMode .TosRadio:disabled,
+.TosRadioMode .TosRadio.disabled{background-position:-3px -90px;cursor:not-allowed;}
+.TosRadioMode .TosRadio.checked{background-position:-3px -60px;}
+.TosRadioMode .TosRadio.checked.disabled{background-position:-3px -120px !important;}
+.TosRadioMode .TosRadio.Invisible{display:none;}
+
+.Tos_Text_Box{width:90%;display:-webkit-flex;display:-webkit-box;display:-moz-flex;display:flex;}
+.Tos_Text_Box label{-webkit-flex:1 1 100px;flex:1 1 100px;margin:0px;line-height:30px;}
+.Tos_Text_Box .TosTextSplit{-webkit-flex:none;flex:none;width:20px;text-align:center;}
+.Tos_Text_Box .TosTextMode{-webkit-flex:10;-webkit-box-flex:10;-moz-box-flex:10;flex:10;line-height:26px;padding:0 3px;margin-top:2px;margin-bottom:2px;box-sizing:border-box;}
+.Tos_Check_Box{width:100%;display:-webkit-flex;display:-webkit-box;display:-moz-flex;display:flex;}
+.Tos_Check_Box label{-webkit-flex:1;-webkit-box-flex:1;-moz-box-flex:1;flex:1;margin:0px;line-height:31px;}
+.Tos_Check_Box .TosCheckMode{display:block;width:30px;margin:0;}
+.TosCheckMode{width:30px;height:30px;margin:0 auto;}
+.TosCheckMode .TosCheck{display:block;width:30px;height:30px;background:url(/images/tos_icons/tos_checkbox_icon.png) no-repeat;background-position:-3px 0;outline:none;}
+.TosCheckMode .TosCheck input{display:none;}
+.TosCheckMode .TosCheck:hover{background-position:-3px -30px;}
+.TosCheckMode .TosCheck:disabled,
+.TosCheckMode .TosCheck.disabled{background-position:-3px -90px;cursor:not-allowed;}
+.TosCheckMode .TosCheck.checked{background-position:-3px -60px;}
+.TosCheckMode .TosCheck.checked.disabled{background-position:-3px -120px !important;}
+.TosCheckMode .TosCheck.Invisible{display:none;}
+
+.Tos_Select_Box{width:100%;display:-webkit-flex;display:-webkit-box;display:-moz-flex;display:flex;}
+.Tos_Select_Box label{margin-right:5px;}
+.TosSelectMode:only-of-type{display:block;min-width:100px;}
+.TosSelectMode:not(:only-of-type){display:inline-block;-webkit-flex:1;-webkit-box-flex:1;-moz-box-flex:1;flex:1;}
+.TosSpace{display:inline-block;width:8px;text-align:center;}
+.TosSelectMode select{display:none;}
+.TosSelectMode .TosSelect{position:relative;}
+.TosSelectMode .Tos-select-title{position:relative;height:30px;}
+.TosSelectMode .TosInput{padding-right:30px;padding-left:2px;cursor:pointer;width:100%;vertical-align:middle;height:30px;box-sizing:border-box;position:absolute;left:0px;top:0px;background-color:rgb(255,255,255);}
+.TosSelectMode .TosInput[value=""]{background-color:rgb(250,209,209);}
+.TosSelectMode .TosEdge{width:20px;height:10px;position:absolute;right:5px;top:50%;margin-top:-4px;cursor:pointer;transition:all .3s;-webkit-transition:all .3s;background:url(/images/tos_icons/button_down.svg) center center no-repeat;}
+.TosSelectMode .Expanded .TosEdge{-webkit-transform: rotate(180deg);transform: rotate(180deg);}
+.TosSelectMode .disabled .TosInput{background-color:rgb(235,235,228);color:#999;cursor:default;}
+.TosSelectMode .disabled .TosEdge{opacity:.5;cursor:default;}
+.TosSelectMode .Invisible{display:none;}
+.TosSelectMode dl{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 29px;
+    padding: 5px 0;
+    z-index: 999;
+    min-width: 100%;
+    border: 1px solid #d2d2d2;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.12);
+    box-sizing: border-box;
+}
+.TosSelectMode dl dd.Tos-select-tips {
+    color:#999;
+}
+.TosSelectMode dd.Tos-select-group{
+    font-weight: 800;
+    cursor: default;
+}
+.TosSelectMode dl dd {
+    cursor:pointer;
+}
+.TosSelectMode dl dd:hover{
+     background:#e6e6e6;
+    color: #000;
+}
+.TosSelectMode dl dd,
+.TosSelectMode dl dt {
+    padding:0 5px;
+    line-height:28px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.TosSelectMode dl dd.TosThis{background-color:#e6e6e6;color:#000;}.tos_status.warning {display: none !important;}
+
+.update-reason {display: none !important;}
+.update_box {display: none !important;}
